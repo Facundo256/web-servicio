@@ -154,24 +154,14 @@ main {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr; /* Una sola columna por defecto */
-
-    /* Agrega espacio entre las filas y el ancho máximo */
-    grid-gap: 20px;
+    grid-template-columns: 1fr; /* Una sola columna*/
+    grid-gap: 20px;/* Agrega espacio entre las filas y el ancho máximo */
     max-width: 100%;
     margin: 0 auto;
 }
 
-
-
-/* Estilos para los elementos dentro de la cuadrícula */
-.grid-item {
+.grid-item {/* Estilos para los elementos dentro de la cuadrícula */
     background-color: #fff;
     padding: 20px;
     text-align: center;
-}
-
-/* Estilos para los elementos en las columnas impares */
-.grid-item:nth-child(odd) {
-    background-color: #f4f4f4;
 }
